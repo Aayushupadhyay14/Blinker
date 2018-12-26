@@ -1,1 +1,20 @@
-/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-fx-background: #343d46;
+}
+.button{
+	-fx-background-color : #a7adba;
+	-fx-font-size: 12pt;
+	-fx-background-radius: 8px;
+	-fx-font-family: Kalam;
+	-fx-text-fill: #343d46;
+}
+
+@font-face {
+    src: url('/application/Kalam-Regular.ttf');
+}
+
+#font{
+	-fx-font-size: 35pt;
+	-fx-font-family: Kalam;
+	-fx-fill: #bf616a;
+}
